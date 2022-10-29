@@ -1,0 +1,204 @@
+*{
+box-sizing: border-box;
+/* background: #1E202B; */
+
+}
+body{
+  padding: 0;
+  margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* nav */
+.back-img{
+  background-image: url('events-heavenly-header.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.layer{
+  background-color: rgba(214, 46, 51, 0.6);
+height: 100%;
+}
+.sideNav{
+  /* background-color: #414658; */
+  display: flex;
+  align-items: flex-start;
+  position: fixed;
+  top:0px;
+  z-index: 9999;
+/* left: -155px; */
+}
+
+.box{
+background-color: #414658;
+padding: 10px;
+height: 600px;
+
+
+}
+.sideNav span{
+  /* background-color: #333; */
+padding: 10px;
+color: #fff;
+cursor: pointer;
+margin-top: 100%;
+
+}
+.sideNav a {
+  padding: 50px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+.sideNav a:hover{
+color: #D62E33 !important;
+}
+ .closebtn {
+  position: absolute;
+  top: -29px;
+  right: 150px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+/* box */
+
+.sing1,.sing2,.sing3,.sing4{
+  width: 50%;
+  height: 50px;
+  line-height: 100px;
+  text-align: center;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  background-color: #E68285;
+  margin:0px auto ;
+}
+.para1,.para2,.para3,.para4{
+  width: 50%;
+  /* height: 500px; */
+  padding: 10px;
+  text-align: center;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  
+  color: black;
+
+  background-color: #CCCCCC;
+  margin: 0px auto;
+}
+/* count */
+.back2{
+  background-image: url('invitation-2508607__340.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 55vh;
+}
+.layer2{
+  background-color: rgba(214, 46, 51, 0.6);
+height: 100%;
+}
+#count h1{
+  border: solid white 2px;
+  padding: 5%;
+  color: white;
+
+}
+/* contact */
+.input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+ form input {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+textarea {
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 0;
+ }
+ #char {
+  font-size: 20px;
+  color: #D62E33;
+}
+form button {
+  background-color: #D62E33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+  border: 0;
+}
+ .head h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ .head p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+}
+ .con-info h3 {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+ .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.icons {
+  margin-top: 50px;
+}
+
+#event h2, p {
+  text-align: center;
+}
+.icons p {
+  margin-bottom: 35px;
+}
+ .con-info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+#contact i {
+  margin-right: 20px;
+  color: #777;
+}
+ .red {
+  color: #D62E33 !important;
+}
+ .con-info .con-social {
+  margin-top: 60px;
+  color: #777;
+}
+
+
+.con-info .con-social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.con-info .con-social  i:hover {
+background-color: #D62E33;
+ color: #fff !important;
+}
+
